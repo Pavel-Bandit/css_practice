@@ -1,7 +1,87 @@
-html {
-  max-width: 720px;
+* {
+  background: #928f8f;
 }
 
-body {
-  background: #fff;
+
+.lesson-four-task-one>.btn:hover {
+  color: red;
+  background-color: yellow;
+}
+
+.title:hover {
+  color: green;
+}
+
+#lesson-four-task-three > .link:visited {
+  color: yellow;
+}
+
+#sidebar>:link {
+  color: red;
+}
+
+.lesson-four-task-five > .btn:active {
+  background-color: blue;
+}
+
+.lesson-four-task-six > .btn:focus {
+  background-color: orange;
+  color: orange;
+}
+
+#target:target {
+  background-color: green;
+  color:white;
+}
+
+:lang(uk)  {
+  color: blue;
+}
+
+.form-control:enabled {
+  color: red;
+  background-color: yellow;
+}
+
+.lesson-four-task-eleven:disabled {
+  background-color: yellow;
+}
+
+.lesson-four-task-twelve>input:read-write {
+  color: yellow;
+}
+
+.lesson-four-task-thirteen:read-only {
+  color: yellow;
+}
+
+.lesson-four-task-fourteen>input:valid {
+  color: greenyellow;
+}
+.lesson-four-task-fourteen>input:invalid {
+  color: red;
+}
+
+.lesson-four-task-fifteen>form:optional {
+  background: red;
+}
+.lesson-four-task-sixteen>form>.bg-secondary:out-of-range {
+  color: red;
+}
+
+.lesson-four-task-seventeen>form>.bg-secondary:in-range {
+  color: red;
+}
+
+.lesson-four-task-eighteen>input:placeholder-shown {
+  background-color: red;
+}
+
+.lesson-four-task-nineteen>.btn-group>button:focus-within {
+  color: white;
+  background-color: yellow;
+}
+
+.lesson-four-task-twenty>form>label>input:invalid {
+  background-color: red;
 }
