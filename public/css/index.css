@@ -8,15 +8,15 @@
   background-color: yellow;
 }
 
-.title:hover {
+.lesson-four-task-two .link:hover + .title {
   color: green;
 }
 
-#lesson-four-task-three > .link:visited {
+.lesson-four-task-three > .link:visited {
   color: yellow;
 }
 
-#sidebar>:link {
+.lesson-four-task-four.>.sidebar:link {
   color: red;
 }
 
@@ -51,8 +51,8 @@
   color: yellow;
 }
 
-.lesson-four-task-thirteen:read-only {
-  color: yellow;
+.lesson-four-task-thirteen>input:read-only {
+  background-color: yellow;
 }
 
 .lesson-four-task-fourteen>input:valid {
@@ -62,8 +62,8 @@
   color: red;
 }
 
-.lesson-four-task-fifteen>form:optional {
-  background: red;
+.lesson-four-task-fifteen textarea:optional {
+  background-color: red;
 }
 .lesson-four-task-sixteen>form>.bg-secondary:out-of-range {
   color: red;
