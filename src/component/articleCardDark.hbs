@@ -1,0 +1,18 @@
+<div class='articles'>
+  {{#each articles}}
+    <div class='art'>
+      <div class='art_img'>
+        <img
+          class='articles_img'
+          src='{{photo}}'
+          alt='{{name}}'
+        /></div>
+      <div class='articles_body'>
+
+        <h3 class='articles_name'>{{name}}</h3>
+        <p class='articles_description'>{{description}}</p>
+
+      </div>
+    </div>
+  {{/each}}
+</div>
